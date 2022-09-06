@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-port-first-draft/static/css/main.adcbb85d.css",
-    "main.js": "/my-port-first-draft/static/js/main.e2b9bcbc.js",
-    "static/js/787.9152a51b.chunk.js": "/my-port-first-draft/static/js/787.9152a51b.chunk.js",
-    "static/media/contact.jpg": "/my-port-first-draft/static/media/contact.11404a7ba93faea0be1a.jpg",
-    "static/media/p3.png": "/my-port-first-draft/static/media/p3.04a8d4bb4a56f3ea994c.png",
-    "static/media/p2.png": "/my-port-first-draft/static/media/p2.6959d89dcb9c42d97145.png",
-    "static/media/p7.png": "/my-port-first-draft/static/media/p7.3fa8bc8dfe51af16c4da.png",
-    "static/media/p4.png": "/my-port-first-draft/static/media/p4.983e1db3af34ec759229.png",
-    "static/media/p6.png": "/my-port-first-draft/static/media/p6.6c8bee61d91863a28205.png",
-    "static/media/p5.png": "/my-port-first-draft/static/media/p5.95f00774eea8406c8481.png",
-    "static/media/p1.png": "/my-port-first-draft/static/media/p1.949505ac3d6038c21629.png",
-    "index.html": "/my-port-first-draft/index.html",
-    "main.adcbb85d.css.map": "/my-port-first-draft/static/css/main.adcbb85d.css.map",
-    "main.e2b9bcbc.js.map": "/my-port-first-draft/static/js/main.e2b9bcbc.js.map",
-    "787.9152a51b.chunk.js.map": "/my-port-first-draft/static/js/787.9152a51b.chunk.js.map"
+    "main.css": "/static/css/main.adcbb85d.css",
+    "main.js": "/static/js/main.d131a5c2.js",
+    "static/js/787.9152a51b.chunk.js": "/static/js/787.9152a51b.chunk.js",
+    "static/media/contact.jpg": "/static/media/contact.11404a7ba93faea0be1a.jpg",
+    "static/media/p3.png": "/static/media/p3.04a8d4bb4a56f3ea994c.png",
+    "static/media/p2.png": "/static/media/p2.6959d89dcb9c42d97145.png",
+    "static/media/p7.png": "/static/media/p7.3fa8bc8dfe51af16c4da.png",
+    "static/media/p4.png": "/static/media/p4.983e1db3af34ec759229.png",
+    "static/media/p6.png": "/static/media/p6.6c8bee61d91863a28205.png",
+    "static/media/p5.png": "/static/media/p5.95f00774eea8406c8481.png",
+    "static/media/p1.png": "/static/media/p1.949505ac3d6038c21629.png",
+    "index.html": "/index.html",
+    "main.adcbb85d.css.map": "/static/css/main.adcbb85d.css.map",
+    "main.d131a5c2.js.map": "/static/js/main.d131a5c2.js.map",
+    "787.9152a51b.chunk.js.map": "/static/js/787.9152a51b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adcbb85d.css",
-    "static/js/main.e2b9bcbc.js"
+    "static/js/main.d131a5c2.js"
   ]
 }
