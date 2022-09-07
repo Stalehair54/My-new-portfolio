@@ -5,14 +5,17 @@ import Projectgal from "../components/projectgal";
 const Home = () => {
   return (
     <section className="bg-[#1a1a1a] mr-4 h-full overflow-x-hidden ml-36 shadow-4xl rounded-md mt-4 mb-4 snap-y snap-proximity">
-      <header className=" h-screen mt-40 shadow-2xl rounded-lg snap-center">
-        <article className="text-left top-40 relative text-[#f4f4f4] text-7xl font-sans px-20">
+      <header className=" h-screen mt-20 shadow-2xl rounded-lg snap-center">
+        <article className="text-left top-40 relative text-[#f4f4f4] text-7xl font-sans px-20 before:content-['<h1>'] before:text-2xl before:text-[#373737] ml-[-28px] before:font-bella ">
           <h5>Hi,</h5>
           <h1>I'm Nick,</h1>
           <h2>A web developer.</h2>
+          <h1 className="after:content-['</h1>'] after:text-xl ml-[-28px] after:text-[#373737] after:font-bella"></h1>
         </article>
-        <p className="text-left top-40 relative text-[#818181] text-2xl font-sans px-20 py-5">
+        <p className="text-left top-40 relative text-[#818181] text-2xl font-sans px-20 py-5   ">
+          <p className="before:content-['<p>'] before:text-2xl before:text-[#373737] ml-[-28px] before:font-bella"></p>
           Front End Developer / WordPress Expert
+          <p className="after:content-['<p>'] ml-[-28px] after:text-[#373737] after:font-bella"></p>
         </p>
         <button
           className="ml-20 mt-40 border border-sky-500 text-[#08fdd8] active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"

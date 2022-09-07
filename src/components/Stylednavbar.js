@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Stylednavbar = () => {
   return (
-    <div className=" fixed bg-[#151515] h-full w-32 mr-8 shadow-4xl">
-      <nav className="flex flex-col  gap-5 font-mono text-[#964F4CFF] text-lg  ">
+    <div className=" fixed flex flex-col bg-[#151515] h-full w-32 mr-8 shadow-4xl">
+      <nav className="flex flex-col gap-5 font-mono text-[#964F4CFF] text-lg  ">
         <NavLink
           to="/"
           className={({ isActive }) =>

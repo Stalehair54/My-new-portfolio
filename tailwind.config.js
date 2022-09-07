@@ -14,6 +14,9 @@ module.exports = {
         "4xl":
           "rgba(0, 0, 0, 0.3) 0px 0px 33px, rgba(0, 0, 0, 0.3) 0px -12px 30px, rgba(0, 0, 0, 0.3) 0px 4px 6px, rgba(0, 0, 0, 0.3) 0px 12px 13px, rgba(0, 0, 0, 0.3) 0px -3px 5px",
       },
+      fontFamily: {
+        bella: ["La Belle Aurore", "cursive"],
+      },
     },
   },
   plugins: [],
