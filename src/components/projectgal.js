@@ -2,11 +2,14 @@ const projectgal = () => {
   return (
     <section className="  py-10">
       <div>
-        <h1 className="capitalize text-8xl text-[#08fdd8] px-20">
+        <h1 className="before:content-['<h1>'] before:text-2xl before:text-[#373737] ml-[28px] before:font-bella"></h1>
+        <h1 className="capitalize text-8xl text-[#08fdd8] px-20  ">
           My Portfolio
         </h1>
+        <h1 className="after:content-['</h1>'] after:text-xl ml-[28px] after:text-[#373737] after:font-bella mb-10"></h1>
       </div>
-      <div className="grid grid-cols-4 gap-3  py-10">
+      <div className="before:content-['<section>'] before:text-2xl before:text-[#373737] ml-[28px] before:font-bella"></div>
+      <div className="grid grid-cols-4 gap-3 py-10 mt-[-40px]">
         <div class="transition ease-in-out delay-1500 bg-[#252525] hover:bg-[#313131] duration-1500 p-3 flex flex-col ">
           <div className="flex w-full">
             <a
