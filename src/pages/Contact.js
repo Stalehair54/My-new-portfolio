@@ -4,17 +4,17 @@ const Contact = () => {
   return (
     <section
       className="bg-[#1a1a1a] mr-4 h-full overflowhidden ml-36 shadow-4xl rounded-md mt-4 mb-4 snap-y snap-proximity before:content-['<html>'] before:text-lg before:ml-3 before:text-[#373737]  before:font-bella
-    after:content-['</html>']  after:text-[#373737] after:font-bella after:ml-3 after:text-lg"
+    after:content-['</html>']  after:text-[#373737] after:font-bella after:ml-3 after:text-lg contact bg-cover bg-no-repeat bg-left bg-fixed"
     >
-      <section className="before:content-['<body>'] before:text-xl before:ml-7 before:text-[#373737] before:font-bella after:content-['</body>']  after:text-[#373737] after:text-xl after:font-bella after:ml-7">
-        <div></div>{" "}
-        <div className="flex justify-between h-full gap-20 shrink-0 ml-40  ">
-          <img
-            className=" mt-[5px] w-7/12 h-full ml-[-46px]  shadow-4xl"
+      <section className="before:content-['<body>'] before:text-xl before:ml-7 before:text-[#373737] before:font-bella after:content-['</body>']  after:text-[#373737] after:text-xl after:font-bella after:ml-7  ">
+        <div className="flex justify-end h-full gap-20 shrink-0 ml-40  ">
+          {/* <img
+            className=" mt-[100px] w-7/12 h-[700px] ml-[-100px]  shadow-4xl "
             src={require("../components/image/contact1.jpg")}
             alt=""
-          />
-          <div className="w-6/12 h-full shadow-4xl px-10 mr-10 mt-[-20px] ">
+          /> */}
+
+          <div className="w-6/12 h-full shadow-4xl px-10 mr-10 mt-[-20px] justify-end bg-[#1a1a1a] bg-opacity-90">
             <h2 className="text-8xl py-20  text-center text-[#08fdd8] mb-[-50px]">
               <h1 className="before:content-['<h1>'] before:text-lg before:text-[#373737] ml-[-470px] before:font-bella"></h1>
               Contact me
