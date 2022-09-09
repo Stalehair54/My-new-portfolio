@@ -18,9 +18,9 @@ const projectgal = () => {
             >
               <img src={require("../components/image/p1.png")} alt="" />
             </a>
-            <footer className="text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="text-center text-[#818181] px-2 self-center">
+              Fully working Calculator with a great background made with
+              javascript, html, and css.
             </footer>
           </div>
         </div>
@@ -33,9 +33,9 @@ const projectgal = () => {
             >
               <img src={require("../components/image/p2.png")} alt="" />
             </a>
-            <footer>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="py-4 text-[#818181]">
+              A template landing page made with flebox and sized perfectly with
+              plain html and css.
             </footer>
           </div>
         </div>
@@ -45,9 +45,9 @@ const projectgal = () => {
             <a href="https://stalehair54.github.io/" target="blank_">
               <img src={require("../components/image/p3.png")} alt="" />
             </a>
-            <footer>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="py-4 text-[#818181]">
+              My previous portfolio, a testament of how far i came made with
+              plain html and css.
             </footer>
           </div>
         </div>
@@ -57,9 +57,8 @@ const projectgal = () => {
             <a href="https://nicholas-react-menu.netlify.app/" target="blank_">
               <img src={require("../components/image/p4.png")} alt="" />
             </a>
-            <footer>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="py-4 text-[#818181]">
+              A Beautiful Menu made with react and done with usestate.
             </footer>
           </div>
         </div>
@@ -71,9 +70,8 @@ const projectgal = () => {
             >
               <img src={require("../components/image/p5.png")} alt="" />
             </a>
-            <footer>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="py-4 text-[#818181]">
+              A Collapsing Q and A page made with react and usestete.
             </footer>
           </div>
         </div>
@@ -85,9 +83,9 @@ const projectgal = () => {
             >
               <img src={require("../components/image/p6.png")} alt="" />
             </a>
-            <footer>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="py-4 text-[#818181]">
+              Amazing Review page with data fetched from an api made Beautifully
+              with react.
             </footer>
           </div>
         </div>
@@ -96,9 +94,9 @@ const projectgal = () => {
             <a href="https://nicholas-react-tours.netlify.app/" target="blank_">
               <img src={require("../components/image/p7.png")} alt="" />
             </a>
-            <footer>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              quisquam.
+            <footer className="py-4 text-[#818181]">
+              Beautiful tour page made with react using usestate and useeffect
+              using data fetched from an api.
             </footer>
           </div>
         </div>
