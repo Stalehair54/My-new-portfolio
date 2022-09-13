@@ -41,6 +41,16 @@ const Stylednavbar = () => {
         >
           Contact
         </NavLink>
+        <NavLink
+          to="resume"
+          className={({ isActive }) =>
+            isActive
+              ? " text-[#08fdd8]"
+              : "text-[#818181]" + " hover:text-[#08fdd8]"
+          }
+        >
+          Resume
+        </NavLink>
       </nav>
       <div className="flex gap-3 mb-60 mt-[] px-4">
         <a
