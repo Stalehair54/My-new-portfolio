@@ -9,7 +9,7 @@ const Home = () => {
     after:content-['</html>']  after:text-[#373737] after:font-bella after:ml-3 after:text-lg xl:w-[1200px] xl:ml-0 xl:mt-0 xl:mb-0 xl:mr-0 xl:overflow-hidden xl:text-xl xl:block"
     >
       <section className=" xl:before:text-xs before:content-['<body>'] before:text-xl before:ml-7 before:text-[#373737] before:font-bella after:content-['</body>']  after:text-[#373737] after:text-xl after:font-bella after:ml-7">
-        <header className=" h-screen xl:h-full mt-20 shadow-2xl rounded-lg xl:mt-0 ">
+        <header className=" h-screen  mt-20 shadow-2xl rounded-lg xl:mt-0 ">
           <article className="xl:before:text-xs xl:after:text-xs xl:before:font-thin xl:after:font-thin xl:before:ml-[-28px] xl:after:ml-[-28px] text-left top-40 xl:top-12 relative text-[#f4f4f4] text-7xl xl:text-4xl font-semibold font-title px-20 xl:ml-0  before:content-['<h1>'] before:text-lg before:text-[#373737] ml-[-28px] before:font-bella after:content-['</h1>'] after:text-lg   after:text-[#373737] after:font-bella">
             <h5 className="">Hi,</h5>
             <h1>I'm Nick,</h1>
