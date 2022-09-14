@@ -5,24 +5,24 @@ import Projectgal from "../components/projectgal";
 const Home = () => {
   return (
     <section
-      className="bg-[#1a1a1a] mr-4 h-full overflowhidden ml-36 shadow-4xl rounded-md mt-4 mb-4 snap-y snap-proximity before:content-['<html>'] before:text-lg before:ml-3 before:text-[#373737]  before:font-bella
-    after:content-['</html>']  after:text-[#373737] after:font-bella after:ml-3 after:text-lg"
+      className=" bg-[#1a1a1a] mr-4 h-full overflowhidden ml-36 shadow-4xl rounded-md mt-4 mb-4 xl:before:hidden xl:after:hidden  before:content-['<html>']  before:text-lg before:ml-3 before:text-[#373737]  before:font-bella
+    after:content-['</html>']  after:text-[#373737] after:font-bella after:ml-3 after:text-lg xl:w-[1200px] xl:ml-0 xl:mt-0 xl:mb-0 xl:mr-0 xl:overflow-hidden xl:text-xl xl:block"
     >
-      <section className="before:content-['<body>'] before:text-xl before:ml-7 before:text-[#373737] before:font-bella after:content-['</body>']  after:text-[#373737] after:text-xl after:font-bella after:ml-7">
-        <header className=" h-screen mt-20 shadow-2xl rounded-lg">
-          <article className="text-left top-40 relative text-[#f4f4f4] text-7xl font-semibold font-title px-20 before:content-['<h1>'] before:text-lg before:text-[#373737] ml-[-28px] before:font-bella after:content-['</h1>'] after:text-lg  after:text-[#373737] after:font-bella">
+      <section className=" xl:before:text-xs before:content-['<body>'] before:text-xl before:ml-7 before:text-[#373737] before:font-bella after:content-['</body>']  after:text-[#373737] after:text-xl after:font-bella after:ml-7">
+        <header className=" h-screen xl:h-full mt-20 shadow-2xl rounded-lg xl:mt-0 ">
+          <article className="xl:before:text-xs xl:after:text-xs xl:before:font-thin xl:after:font-thin xl:before:ml-[-28px] xl:after:ml-[-28px] text-left top-40 xl:top-12 relative text-[#f4f4f4] text-7xl xl:text-4xl font-semibold font-title px-20 xl:ml-0  before:content-['<h1>'] before:text-lg before:text-[#373737] ml-[-28px] before:font-bella after:content-['</h1>'] after:text-lg   after:text-[#373737] after:font-bella">
             <h5 className="">Hi,</h5>
             <h1>I'm Nick,</h1>
             <h2>A web developer.</h2>
           </article>
-          <p className="text-left top-40 relative text-[#818181] text-2xl font-sans px-20 py-5   ">
-            <p className="before:content-['<p>'] before:text-lg before:text-[#373737] ml-[-15px] before:font-bella "></p>
+          <p className="text-left top-40 xl:top-10 relative text-[#818181] text-2xl font-sans px-20 py-5 xl:text-lg ">
+            <p className="before:content-['<p>'] before:text-lg xl:before:text-xs before:text-[#373737] ml-[-15px] before:font-bella "></p>
             Front End Developer / WordPress Expert
-            <p className="after:content-['<p>'] ml-[-15px] after:text-[#373737] after:text-lg after:font-bella"></p>
+            <p className="after:content-['<p>'] ml-[-15px] after:text-[#373737] xl:after:text-xs after:text-lg after:font-bella"></p>
           </p>
           <Link to="/contact">
             <button
-              className="ml-20 mt-40 border border-sky-500 text-[#08fdd8] active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+              className="xl:mt-14 xl:px-3 xl:mb-20 xl:py-2 ml-20 mt-40 border border-sky-500 text-[#08fdd8] active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
               type="submit"
             >
               Let's connect
