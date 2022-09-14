@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { FaFacebookSquare, FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Stylednavbar = () => {
   return (
-    <section className="nav">
-      <div className="fixed flex flex-col bg-[#151515] h-full w-32 mr-8 shadow-4xl justify-between">
+    <section className="nav ">
+      <div className="fixed flex flex-col bg-[#151515] h-full w-32 mr-8 shadow-4xl justify-between xl:mr-0 xl:w-0">
         <div>
           <Link to="/">
             <img src={require("../components/image/Logo.png")} alt="my logo" />

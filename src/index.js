@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <section className="bg-[#1a1a1a] flex flex-col">
+  <section>
     <React.StrictMode>
       <App />
     </React.StrictMode>
