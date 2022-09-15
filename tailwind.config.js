@@ -19,13 +19,15 @@ module.exports = {
       },
     },
     screens: {
-      "2xl": { max: "1535px" },
+      "2xl": { max: "1500px" },
       // => @media (max-width: 1535px) { ... }
 
       xl: { max: "1300px" },
       // => @media (max-width: 1279px) { ... }
 
       lg: { max: "1000px" },
+      tb: { max: "980px" },
+      mon3: { max: "1330px" },
       // => @media (max-width: 1023px) { ... }
 
       md: { max: "760px" },
@@ -33,6 +35,10 @@ module.exports = {
 
       sm: { max: "600px" },
       // => @media (max-width: 639px) { ... }
+      xsm: { max: "360px" },
+      xsm1: { max: "450px" },
+      xsm2: { max: "400px" },
+      xsm3: { max: "380px" },
     },
   },
   plugins: [],
