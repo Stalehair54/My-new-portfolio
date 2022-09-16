@@ -26,8 +26,9 @@ module.exports = {
       // => @media (max-width: 1279px) { ... }
 
       lg: { max: "1000px" },
+      ipad: { max: "1100px" },
       tb: { max: "980px" },
-      mon3: { max: "1330px" },
+      tb1: { max: "850px" },
       // => @media (max-width: 1023px) { ... }
 
       md: { max: "760px" },

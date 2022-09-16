@@ -10,7 +10,7 @@ const Home = () => {
     >
       <section className="xl:m-0  xl:block lg:before:text-xl lg:after:text-xl xl:before:text-xl before:content-['<body>'] before:text-xl before:ml-7 before:text-[#373737] before:font-bella after:content-['</body>']  after:text-[#373737] after:text-xl after:font-bella after:ml-7 xl:w-full xl:mr-0">
         <header className=" h-screen  mt-20 shadow-2xl xl:py-36 rounded-lg xl:mt-0  block">
-          <article className=" sm:pl-4 sm:text-5xl sm:before:ml-[-15px] md:text-7xl sm:after:ml-[-15px] xl:before:text-xl lg:before:text-xl lg:after:text-xl xl:after:text-xl xl:before:font-thin xl:after:font-thin  xl:before:ml-[-28px] xl:after:ml-[-28px] text-left  xl:top-12 relative text-[#f4f4f4] text-7xl xl:text-4xl font-semibold font-title px-20 xl:ml-0  before:content-['<h1>'] before:text-lg before:text-[#373737] ml-[-28px] before:font-bella after:content-['</h1>'] after:text-lg   after:text-[#373737] after:font-bella xsm:text-4xl">
+          <article className=" sm:pl-4 sm:text-5xl sm:before:ml-[-15px] md:text-7xl sm:after:ml-[-15px] xl:before:text-xl lg:before:text-xl lg:after:text-xl xl:after:text-xl xl:before:font-thin xl:after:font-thin  xl:before:ml-[-28px] xl:after:ml-[-28px] text-left  xl:top-12 relative text-[#f4f4f4] text-7xl xl:text-4xl font-semibold font-title px-20 xl:ml-0  before:content-['<h1>'] before:text-lg before:text-[#373737] ml-[-28px] before:font-bella after:content-['</h1>'] after:text-lg   after:text-[#373737] after:font-bella xsm:text-4xl xsm3:text-4xl ">
             <h5 className="">Hi,</h5>
             <h1>I'm Nick,</h1>
             <h2>A web developer.</h2>
@@ -50,7 +50,7 @@ const Home = () => {
             </h1>
           </div>
           <img
-            className=" h-[500px] shadow-4xl lg:ml-[-700px] rounded-[5rem] md:hidden tb:hidden "
+            className=" h-[500px] shadow-4xl lg:ml-[-700px] rounded-[5rem] md:hidden tb:hidden ipad:hidden "
             src={require("../components/image/me1.png")}
             alt=""
           />

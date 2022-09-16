@@ -15,6 +15,7 @@
 @tailwind utilities;
 
 html {
+  overflow-x: hidden;
   background-color: #1a1a1a;
 }
 
